@@ -1,0 +1,38 @@
+h1{
+    background-color: red;
+    color: white;
+}
+p{
+    background-color: red;
+}
+img{
+    width: 800px;
+    height: 600px;
+}
+
+
+@media(max-width: 992px){
+p{
+background-color: blue; 
+color:white;
+}
+}
+
+
+@media(max-width:768px){
+    p{
+        background-color: green;
+    }
+}
+
+
+@media(max-width:480px){
+    p{
+        background-color: black;
+        
+    }
+    img{
+        display: none;
+    }
+}
+
